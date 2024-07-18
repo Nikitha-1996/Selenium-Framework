@@ -17,6 +17,7 @@ import pageobjectmodelforproject.ProductCataloguePage;
 import pageobjectmodelforproject.YourOrdersPage;
 
 public class ProductPurchasedTest extends TestBase {
+// added for GitHub Hooks verification
 	String productname = "IPHONE 13 PRO";
 
 	@Test(dataProvider = "dataSetsforTestcases", groups="purchasing")
