@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-12T14:44:17 IST" name="Default suite" finished-at="2024-07-12T14:44:38 IST" duration-ms="21001">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGRunner@291b4bf5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-07-12T14:44:17 IST" name="Default test" finished-at="2024-07-12T14:44:38 IST" duration-ms="21001">
+      <class name="cucumber.TestNGRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.TestNGRunner@291b4bf5]" started-at="2024-07-12T14:44:18 IST" name="setUpClass" finished-at="2024-07-12T14:44:19 IST" duration-ms="1280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@14c93774]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGRunner@291b4bf5]" started-at="2024-07-12T14:44:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-12T14:44:38 IST" duration-ms="19566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Purchasing product in the E-commerce"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Ordering Products in the E-commerce"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.TestNGRunner@291b4bf5]" started-at="2024-07-12T14:44:38 IST" name="tearDownClass" finished-at="2024-07-12T14:44:38 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumber.TestNGRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

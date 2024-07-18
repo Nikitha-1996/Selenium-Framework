@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" name="Suite">
+<listeners>
+<listener class-name="TestComponents.TestListeners"/>
+</listeners>
+<test thread-count="5" name="Product Purchased TestCases">
+    <classes>
+      <class name="Test.Framework.ProductPurchasedTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Validate Errors TestCases">
+    <classes>
+      <class name="Test.Framework.ValidateErrorsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

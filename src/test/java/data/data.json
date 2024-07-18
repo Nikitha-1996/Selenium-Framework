@@ -1,0 +1,15 @@
+[
+{
+      "email" : "qatest1@yopmail.com",
+      "password" : "Test@123",
+      "product": "IPHONE 13 PRO"
+}
+
+,
+{
+      "email" : "qatest18@yopmail.com",
+      "password" : "Test@123",
+      "product": "ADIDAS ORIGINAL"
+}
+
+]

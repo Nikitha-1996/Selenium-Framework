@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<listeners>
+<listener class-name="TestComponents.TestListeners"/>
+</listeners>
+<groups>
+<run>
+<include name="purchasing"/>
+</run>
+</groups>
+<test  name="Product Purchased TestCases">
+    <classes>
+      <class name="Test.Framework.ProductPurchasedTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Validate Errors TestCases">
+    <classes>
+      <class name="Test.Framework.ValidateErrorsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

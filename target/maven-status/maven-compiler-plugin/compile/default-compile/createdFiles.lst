@@ -1,0 +1,8 @@
+pageobjectmodelforproject\OrderConfirmationPage.class
+pageobjectmodelforproject\CartPage.class
+pageobjectmodelforproject\YourOrdersPage.class
+TestResources\ReportsResources.class
+pageobjectmodelforproject\PaymentOfOrderPage.class
+pageobjectmodelforproject\ProductCataloguePage.class
+commonmethods\AbstractReuseMethods.class
+pageobjectmodelforproject\LoginPage.class
